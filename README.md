@@ -1,6 +1,6 @@
 # rest-api-adapter-android
 
-> Adapter REST API en Android
+> REST API Adapter Pattern in Android
 
 ![Language](https://img.shields.io/github/languages/top/J1u2a3n8/rest-api-adapter-android)
 ![License](https://img.shields.io/github/license/J1u2a3n8/rest-api-adapter-android)
@@ -8,65 +8,65 @@
 ![Stars](https://img.shields.io/github/stars/J1u2a3n8/rest-api-adapter-android?style=social)
 ![Issues](https://img.shields.io/github/issues/J1u2a3n8/rest-api-adapter-android)
 
-## 📋 Descripción
+## Description
 
-Practica de desarrollo Android nativo con Kotlin y arquitectura moderna. Migrado, historial reescrito, documentado para portfolio.
+Android networking layer using Retrofit with Adapter pattern for clean API integration. Demonstrates interceptors, authentication, caching, error handling, and pagination with Kotlin Coroutines and Flow.
 
-## 🏗️ Arquitectura
+## Architecture
 
-MVVM + Repository Pattern + Room Database
+Repository → Retrofit Service → Interceptor Chain → Adapter → Domain Model
 
-## 🚀 Inicio Rápido
+## Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
 Android Studio Ladybug+, JDK 17, Android SDK 34
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar
+# Clone
 git clone https://github.com/J1u2a3n8/rest-api-adapter-android.git
 cd rest-api-adapter-android
 
 ./gradlew build
 ```
 
-### Uso
+### Usage
 
 ```bash
 ./gradlew installDebug
 ```
 
-## 🧪 Tests
+## Testing
 
 ```bash
 ./gradlew test
 ```
 
-## 📁 Estructura del Proyecto
+## Project Structure
 
 ```
 rest-api-adapter-android/
-├── src/              # Código fuente principal
-├── tests/            # Tests unitarios/integración
-├── docs/             # Documentación
-├── .github/          # Workflows CI/CD
+├── src/              # Main source code
+├── tests/            # Unit/integration tests
+├── docs/             # Documentation
+├── .github/          # CI/CD workflows
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**Kotlin**, Android SDK, Room, Retrofit, Coroutines, Flow
+Kotlin, Android SDK, Retrofit, OkHttp, Moshi, Coroutines, Flow, Paging 3
 
-## 📄 Licencia
+## License
 
-Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
-## 👤 Autor
+## Author
 
 **J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
 
 ---
 
-⭐ Si este proyecto te fue útil, ¡dale una estrella!
+⭐ If you found this project useful, give it a star!
